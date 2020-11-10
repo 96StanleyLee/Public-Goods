@@ -96,6 +96,9 @@ function App() {
               <p>No synthetic fibers or elemental chlorine.</p>
             </div>
           </div>
+          <div className="collection">
+            <h2 className="sub_heading">The Collection</h2>
+          </div>
           <div className="main_1_3">
             <div className="main_1_3_1">
               <img
@@ -132,7 +135,7 @@ function App() {
           </div>
 
           <div className="text-center">
-            <button className="main_button"> Shop Now</button>
+            <button className="main_button shop_button"> Shop Now</button>
           </div>
         </div>
       </div>
@@ -146,11 +149,13 @@ function App() {
             you, eco-friendly and beautifully designed home
             <br /> essentials, all in one place and at ultra-low prices.
           </p>
-          <p style={{ opacity: "0.5" }}>As seen in:</p>
+          <p className="as_seen_in" style={{ opacity: "0.5" }}>
+            As seen in:
+          </p>
           <div className="press_quotes">
             <img width={"500px"} src="./images/press-quotes.png" />
           </div>
-          <button className="main_button">Shop Now</button>
+          <button className="main_button shop_button">Shop Now</button>
         </div>
       </div>
       <footer className="footer">

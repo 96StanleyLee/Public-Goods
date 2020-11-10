@@ -49,7 +49,7 @@ h2 {
 .hero {
   background-image: url("./images/menstraul-hero_desktop.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   height: 40rem;
   display: flex;
   align-items: center;
@@ -213,4 +213,124 @@ input::placeholder {
 .footer_links {
   display: flex;
   justify-content: space-between;
+}
+
+.collection {
+  display: none;
+}
+
+/* @media only screen and (min-width: 600px) {
+  .nav_left .nav_link {
+    display: none;
+  }
+  .nav_right {
+    display: none;
+  }
+
+  .hero {
+    text-align: center;
+    height: 90vh;
+  }
+
+  .hero_box {
+    width: 100%;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .nav_left .nav_link {
+    display: none;
+  }
+
+  .nav_right {
+    display: none;
+  }
+
+  .hero {
+    text-align: center;
+    height: 90vh;
+  }
+
+  .hero_box {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0 1em;
+  }
+
+  .main_1_2 {
+    grid-template-columns: 1fr;
+  }
+
+  .main_1_2_2 {
+    text-align: center;
+  }
+
+  .collection {
+    display: block;
+    text-align: center;
+  }
+
+  .main_1_3 {
+    grid-template-columns: 1fr;
+  }
+
+  .shop_button {
+    display: none;
+  }
+
+  .main_2 {
+    height: 90vh;
+    background-image: url("./images/new-to-public-goods_mobile.jpg");
+    text-align: center;
+    align-items: start;
+    padding-top: 2em;
+  }
+
+  .press_quotes {
+    display: none;
+  }
+
+  .as_seen_in {
+    display: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  form {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  input {
+    padding: 1em 1em;
+  }
+
+  .footer_links {
+    flex-direction: column;
+    font-size: 15px;
+  }
+
+  .footer_links_left a {
+    margin-right: 0;
+    padding: 0 1em;
+  }
+
+  .footer_links_left {
+    margin-bottom: 1em;
+  }
+
+  .footer_1 {
+    flex-direction: column;
+  }
+
+  .main_1_2_1 {
+    background-image: url("./images/pad_detail_mobile.jpg");
+  }
+
+  .main_1_2_2 {
+    background-image: url("./images/pad_in_hand_mobile.jpg");
+  }
 }
