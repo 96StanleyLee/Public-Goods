@@ -1,0 +1,157 @@
+h2 {
+  font-size: 2em;
+}
+
+.body {
+  padding: 0;
+}
+
+.container {
+  padding: 0 3em;
+}
+
+.nav {
+  width: 100%;
+  height: 115px;
+  background-color: white;
+}
+
+.nav_menu {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_link {
+  padding: 0 15px 0 15px;
+  text-decoration: none;
+  color: #94a3b5;
+}
+
+.nav_link-outline {
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  color: #94a3b5;
+  border: solid 1px #f5896b;
+}
+
+.main_button {
+  padding: 15px 30px 15px;
+  border: 0px;
+  background-color: #f5896b;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  outline: none;
+}
+
+.hero {
+  background-image: url("./images/menstraul-hero_desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  padding: 1.5em 0;
+}
+
+.sub_heading {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+}
+
+.hero_box {
+  width: 25%;
+}
+
+.hero_text {
+  font-size: 1.1em;
+  margin-bottom: 2em;
+}
+
+.main_1_1 {
+  margin: 3.5em 0;
+  background-image: url("./images/bamboo_desktop.jpg");
+  background-size: cover;
+  padding: 5em;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main_1 {
+  margin-bottom: 3.5em;
+}
+
+.main_1_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  width: 100%;
+}
+
+.main_1_2_1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/pad_detail_desktop.jpg");
+  background-size: cover;
+  padding: 3em 1em;
+}
+
+.main_1_2_2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/pad_in_hand_desktop.jpg");
+  background-size: cover;
+  padding: 3em 1em;
+}
+
+.main_1_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+  width: 100%;
+  margin: 3.5em 0;
+}
+
+.product_image {
+  max-width: 100%;
+}
+
+.product_name {
+  display: block;
+}
+
+.product_price {
+  font-weight: bold;
+}
+
+.main_2 {
+  background-image: url("./images/new-to-public-goods_desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 42rem;
+  display: flex;
+  align-items: center;
+  padding: 1.5em 0;
+}
+
+.press_quotes {
+  display: block;
+  margin-bottom: 2em;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
