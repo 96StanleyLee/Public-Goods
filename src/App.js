@@ -23,9 +23,11 @@ function App() {
             ></img>
           </div>
           <div className="nav_right">
-            <a className="nav_link" href="#">
-              'SEARCH'
-            </a>
+            <img
+              style={{ marginRight: "2em" }}
+              width={20}
+              src="https://cdn.shopify.com/s/files/1/0838/7991/files/magnify_2_30x.png?2583"
+            />
             <a className="nav_link-outline" href="#">
               Free Trial
             </a>
@@ -154,14 +156,47 @@ function App() {
       <footer className="footer">
         <div className="container">
           <div className="footer_left">
-            <p>Connect with us</p>
-            <input></input>
-            <p>
-              By clicking Sign Up you agree to receive marketing emails from
-              PUBLIC GOODS
-            </p>
+            <h4 className="footer_heading">Connect with us</h4>
+            <form>
+              <input placeholder="Enter your email" />
+              <button>Subscribe</button>
+            </form>
+            <div className="footer_1">
+              <p className="footer_disclaimer">
+                By clicking Sign Up you agree to receive <br />
+                marketing emails from PUBLIC GOODS
+              </p>
+              <div className="footer_images">
+                <img
+                  className="social_icon"
+                  src="https://cdn.shopify.com/s/files/1/0838/7991/t/202/assets/pinterest.png?v=9200692156590803653"
+                />
+                <img
+                  className="social_icon"
+                  src="https://cdn.shopify.com/s/files/1/0838/7991/t/202/assets/facebook.png?v=5136794340258126381"
+                />
+                <img
+                  className="social_icon"
+                  src="https://cdn.shopify.com/s/files/1/0838/7991/t/202/assets/twitter.png?v=2080486621711630736"
+                />
+                <img
+                  className="social_icon"
+                  src="https://cdn.shopify.com/s/files/1/0838/7991/t/202/assets/instagram.png?v=4210573133226539251"
+                />
+              </div>
+            </div>
+            <div className="footer_links">
+              <div className="footer_links_left">
+                <a>Contact </a>
+                <a>Shipping</a>
+                <a>Privacy Policy</a>
+                <a>Terms and Services</a>
+              </div>
+              <div className="footer_links_right">
+                <span>&copy; PUBLIC GOODS - All Rights Reserved</span>
+              </div>
+            </div>
           </div>
-          <div className="footer_right"></div>
         </div>
       </footer>
     </div>
