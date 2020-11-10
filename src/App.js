@@ -31,7 +31,7 @@ function App() {
             <a className="nav_link-outline" href="#">
               Free Trial
             </a>
-            <a className="nav_link" href="#">
+            <a className="nav_link log_in_show" href="#">
               Log In
             </a>
             <a className="nav_link" href="#">

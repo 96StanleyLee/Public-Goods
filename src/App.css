@@ -219,24 +219,6 @@ input::placeholder {
   display: none;
 }
 
-/* @media only screen and (min-width: 600px) {
-  .nav_left .nav_link {
-    display: none;
-  }
-  .nav_right {
-    display: none;
-  }
-
-  .hero {
-    text-align: center;
-    height: 90vh;
-  }
-
-  .hero_box {
-    width: 100%;
-  }
-} */
-
 @media only screen and (max-width: 600px) {
   .nav_left .nav_link {
     display: none;
@@ -332,5 +314,9 @@ input::placeholder {
 
   .main_1_2_2 {
     background-image: url("./images/pad_in_hand_mobile.jpg");
+  }
+
+  .log_in_show {
+    display: block !important;
   }
 }
